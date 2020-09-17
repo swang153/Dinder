@@ -1,0 +1,5 @@
+INPUT
+stars data/stars/no-name.csv
+OUTPUT
+Read 5 stars from data/stars/no-name.csv
+END

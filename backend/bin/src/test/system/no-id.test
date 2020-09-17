@@ -1,0 +1,5 @@
+INPUT
+stars data/stars/no-id.csv
+OUTPUT
+ERROR:
+END

@@ -1,0 +1,6 @@
+INPUT
+stars data/stars/ten-star.csv
+radius 1 124 431 2414
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+END

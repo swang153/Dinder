@@ -1,0 +1,38 @@
+#progressbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	background: #FADC61;
+	width: 40vw;
+	height: 100vh;
+}
+
+.progressbar-tab-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+}
+
+.progressbar-tab-icon {
+    width: 47px;
+    height: 41px;
+}
+
+.progressbar-tab-text {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.progressbar-tab-container:hover .progressbar-tab-text {
+    cursor: default;
+}
+
+#progressbar-current {
+    color: #4A4A4A;
+}

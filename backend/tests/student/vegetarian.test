@@ -1,0 +1,9 @@
+INPUT
+dinder data/users.sqlite3
+vegetarian thane_parks@brown.edu
+OUTPUT
+dinder set to data/users.sqlite3
+Rashad
+Vernon
+Dahlia
+END

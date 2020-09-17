@@ -1,0 +1,28 @@
+body {
+  background-image: url("mainbackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+
+input[type="number"] {width: 3em;
+}
+#flexbox {display: flex; justify-content: center;}
+
+.main-h1 {color: black; text-align: center; margin-top: 50px;}
+
+.main-flex {display: flex; justify-content: center; margin-top: 100px;}
+
+.main-flex input[type="submit"] {
+    border-radius: 20px;
+    width: 400px ;
+    height: 200px;
+    font-size: 40px;
+    background-color: #e7e7e7; color: black;
+    margin-top: 10px
+}
+
+.main-stars {margin-right: 50px;}
+
+.main-timdb {margin-left: 50px;}

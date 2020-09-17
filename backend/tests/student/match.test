@@ -1,0 +1,9 @@
+INPUT
+dinder data/users.sqlite3
+match astra_terry@brown.edu
+OUTPUT
+dinder set to data/users.sqlite3
+Cora
+Jasper
+Mariam
+END

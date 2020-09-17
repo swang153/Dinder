@@ -1,0 +1,7 @@
+INPUT
+dinder data/users.sqlite3
+match abby_terry@brown.edu
+OUTPUT
+dinder set to data/users.sqlite3
+ERROR:
+END

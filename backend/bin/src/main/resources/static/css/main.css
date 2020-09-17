@@ -1,0 +1,54 @@
+input[type="number"] {
+  width: 3em;
+}
+#flexbox {
+  display: flex;
+  justify-content: center;
+}
+body {
+    background-color: black;
+    background-image: url("space-theme.jpeg");
+    font-family: courier, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h1 {
+  color: white;
+  border-bottom: 1px solid white;
+  margin-bottom: 50px;
+}
+label {
+color: white;
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+textarea {
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+input[type="submit" i] {
+    border-radius: 12px;
+    width: 100px ;
+    height: 35px;
+    font-size: 15px;
+    background-color: #e7e7e7; color: black;
+    margin-top: 10px
+}
+.neighbors {
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+h3 {
+  color: white;
+}
+.results {
+  background-color: white;
+  color: black;
+  width: 50%;
+  font-size: 15px;
+  margin: 0 auto;
+}

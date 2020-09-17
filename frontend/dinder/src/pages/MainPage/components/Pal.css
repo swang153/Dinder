@@ -1,0 +1,131 @@
+/* Pal Cards */
+.pal {
+    width: 300px;
+    height: 400px;
+}
+
+.pal-img {
+    width: 18vw;
+    height: 18vw;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+}
+
+.pal-btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #F0865D;
+    border-style: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.card-leaf {
+    width: 2vw;
+    height: 2vw;
+}
+
+.pal-card {
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    height: fit-content;
+    background-color: white;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.pal-card-body {
+    font-family: "Montserrat";
+    color: #4a4a4a;
+    font-size: 16px;
+    text-align: left;
+    padding: 5%;
+}
+
+.card-sub {
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #F0865D;
+    margin: 0 !important;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-btn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    border-style: none;
+    font-weight: bold;
+}
+
+.card-info-row span-l {
+    font-weight: bold;
+    float: left;
+    color: #BFBFBF;
+}
+
+.card-info-row span-r {
+    float: right;
+}
+
+.pal-popover {
+    background-color: white;
+    font-family: "Montserrat";
+    color: #4a4a4a;
+    font-size: 14px;
+    min-width: 20vw;
+    max-width: 32vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+/* Modal */
+.pal-modal {
+    text-align: center;
+    font-family: "Montserrat";
+    max-width: 350px !important;
+    border-radius: 15% !important;
+}
+
+.pal-modal-body {
+    color: #4a4a4a;
+    font-size: 16px;
+    padding: 8%;
+    text-align: center;
+}
+
+.pal-modal-button {
+    width: 100px;
+    height: 50px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-color: #F0865D;
+    border-radius: 10px;
+    border: none;
+}

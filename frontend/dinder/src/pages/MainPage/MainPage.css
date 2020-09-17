@@ -1,0 +1,75 @@
+/* MainPage */
+.background {
+    width: 100%;
+    height: 100vh; /* */
+    background-color: #FADC61;
+    /* padding: 6% 8%; */
+    padding: 3% 8%;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-column-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-column-left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.top-column-right {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    font-family: "Montserrat";
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    font-family: "Montserrat";
+    color: #4a4a4a;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.caption {
+    font-family: "Montserrat";
+    color: #4a4a4a;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.caption span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.person-list {
+    display: flex;
+    justify-content: space-between;
+}

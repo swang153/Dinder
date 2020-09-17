@@ -1,0 +1,5 @@
+INPUT
+dinder data/user.sqlite3
+OUTPUT
+ERROR:
+END

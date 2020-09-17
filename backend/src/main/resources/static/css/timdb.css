@@ -1,0 +1,64 @@
+input[type="number"] {
+  width: 3em;
+}
+
+#flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+    background-image: url("hollywood.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Helvetica;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h3 {
+  color: white;
+}
+
+label {
+color: white;
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+
+textarea {
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+    border-radius: 12px;
+    width: 100px ;
+    height: 35px;
+    font-size: 15px;
+    background-color: #e7e7e7; color: black;
+    margin-top: 10px
+}
+
+.actor1 {
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.timdbResults {
+  background-color: white;
+  color: black;
+  width: 50%;
+  font-size: 15px;
+  margin: 0 auto;
+}

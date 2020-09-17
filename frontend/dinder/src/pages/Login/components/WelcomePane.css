@@ -1,0 +1,33 @@
+#welcomepane-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background: #FADC61;
+	width: 40vw;
+	height: 100vh;
+}
+
+#welcomepane-desc {
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	width: 277px;
+	color: #4A4A4A;
+}
+
+#welcomepane-right-paw-container {
+	display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+#welcomepane-left-paw-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}

@@ -1,0 +1,5 @@
+INPUT
+stars data/stars/dup-id.csv
+OUTPUT
+ERROR:
+END
